@@ -1,4 +1,4 @@
-DROP IF EXISTS test_tables;
+DROP TABLE IF EXISTS test_tables;
 CREATE TABLE test_tables (id BIGINT, name STRING, last_name STRING, birth STRING, phone STRING, email STRING, addres STRING, age BIGINT);
 INSERT INTO test_tables VALUES (8013, "Matthew", "Glass", "1957-08-22", "545.095.6591x253", "laurabrown@leach-case.com", "3497 Taylor Corner Suite 747
 Lake Richard, GA 44198", 91), (1112, "Monica", "Lewis", "1910-06-05", "317-996-2828", "tjohnson@yahoo.com", "210 Julia Turnpike
